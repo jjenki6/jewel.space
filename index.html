@@ -16,7 +16,7 @@
 
   
   <!-- NAVIAGATION BAR -->
-<nav class="navbar navbar-expand-lg bg-mint" ...>
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,16 +36,15 @@
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">About...</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">About me</a>
+            <a class="dropdown-item" href="#">About my hobbies</a>
+            <a class="dropdown-item" href="#">About the site</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
           </div>
         </li>
       </ul>
@@ -59,10 +58,25 @@
 
   
   <!-- MAIN CONTENT -->
-  <main>
-    <h1>Welcome to the JewelSpace!</h1>
-    <small class="text-body-secondary">(aka my personal website I made for fun)</small>
-
+  <main class ="container mt-5">
+    <h1 class ="text-center">Welcome to the JewelSpace!</h1>
+    <small class="text0center text-body-secondary d-block mb-4">(aka my personal website I made for fun)</small>
+    <div class ="row">
+      <div class="col-md-6">
+        <h2>LEFT</h2>
+        <p class="lead"> Erm erm erm erm </p>
+        <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Info card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>RIGHT</h2>
+        <p>I enjoy hiking, reading, and playing video games in my free time.</p>
+      </div>
       
     <!-- Your page content here -->
   </main>
