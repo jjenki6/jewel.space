@@ -1,0 +1,1 @@
+My (Jewel's) personal website. Went on a little one month hiatus due to family, work, and other changes in life, but! I am back. This website is very much a work in progress, but be sure to check back soon :)
